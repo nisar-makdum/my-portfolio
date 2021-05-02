@@ -15,7 +15,7 @@ const ContactForm = () => {
             e.target.reset()
       }
     return (
-        <div>
+        <div id="contact">
         <h1 style={{color:"#F0FFF0"}} className=" text-center font-details-b">CONTACT ME</h1>
         <div className="container mb-3">
         <form onSubmit={sendEmail}>

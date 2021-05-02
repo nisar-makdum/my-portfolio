@@ -16,7 +16,7 @@ import FooterPanel from "./components/footer/footer.component";
 
 import "./App.css";
 import MyBlogs from "./pages/MyBlogs/MyBlogs";
-import ContactForm from "./pages/ContactForm/ContactForm.jsx";
+import ContactForm from "./pages/contact-form/contact-form.component.jsx";
 
 const App = () => {
   return (
