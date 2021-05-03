@@ -17,16 +17,20 @@ import L_MONGODB from "../../assets/img/skills/mongodb.svg";
 import Image from "react-bootstrap/Image";
 import L_HTML5 from "../../assets/img/skills/html-5.svg";
 import L_CSS3 from "../../assets/img/skills/css3.svg";
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+
 
 
 import "./projects-timeline.styles.css";
 
 const TimeLine = () => {
+  AOS.init({duration:1500});
   return (
     <div id="projects">
       <h1 style={{color:"#F0FFF0"}} className="pt-3 text-center font-details-b pb-3">PROJECTS</h1>
       <Timeline>
-        <Events>
+        <Events data-aos="zoom-in">
         {/* Project: SHOTS STUDIO*/}
         <ImageEvent
             className="text-center"

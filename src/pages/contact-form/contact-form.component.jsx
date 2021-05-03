@@ -1,7 +1,11 @@
 import React from 'react';
 import emailjs from 'emailjs-com';
+import AOS from 'aos';
+import 'aos/dist/aos.css'
 
 const ContactForm = () => {
+
+    AOS.init({duration:1500});
 
     function sendEmail(e) {
         e.preventDefault();
@@ -17,7 +21,7 @@ const ContactForm = () => {
     return (
         <div id="contact">
         <h1 style={{color:"#F0FFF0"}} className=" text-center font-details-b">CONTACT ME</h1>
-        <div className="container mb-3">
+        <div data-aos="fade-up" className="container mb-3">
         <form onSubmit={sendEmail}>
                 <div className="row pt-5 mx-auto">
                     <div className="col-8 form-group pt-2 mx-auto">

@@ -1,0 +1,41 @@
+{
+  "files": {
+    "main.css": "/static/css/main.a6467b28.chunk.css",
+    "main.js": "/static/js/main.de91f7cf.chunk.js",
+    "main.js.map": "/static/js/main.de91f7cf.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.a214d8cc.js",
+    "runtime-main.js.map": "/static/js/runtime-main.a214d8cc.js.map",
+    "static/js/2.6aa36a32.chunk.js": "/static/js/2.6aa36a32.chunk.js",
+    "static/js/2.6aa36a32.chunk.js.map": "/static/js/2.6aa36a32.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.5959e76259ad3ce332403214939f6882.js": "/precache-manifest.5959e76259ad3ce332403214939f6882.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.a6467b28.chunk.css.map": "/static/css/main.a6467b28.chunk.css.map",
+    "static/js/2.6aa36a32.chunk.js.LICENSE.txt": "/static/js/2.6aa36a32.chunk.js.LICENSE.txt",
+    "static/media/blog1.jpg": "/static/media/blog1.4c108374.jpg",
+    "static/media/bootstrap-4.svg": "/static/media/bootstrap-4.ffded238.svg",
+    "static/media/css3.svg": "/static/media/css3.3707da3c.svg",
+    "static/media/express.svg": "/static/media/express.c6bab64b.svg",
+    "static/media/github.svg": "/static/media/github.0ff1a6f0.svg",
+    "static/media/heroku.svg": "/static/media/heroku.b38ff61a.svg",
+    "static/media/html-5.svg": "/static/media/html-5.676e8188.svg",
+    "static/media/image.jpg": "/static/media/image.d078968b.jpg",
+    "static/media/javascript.svg": "/static/media/javascript.2d2e31cc.svg",
+    "static/media/mongodb.svg": "/static/media/mongodb.2985235d.svg",
+    "static/media/my-img.jpeg": "/static/media/my-img.7217152a.jpeg",
+    "static/media/nodejs.svg": "/static/media/nodejs.a1231528.svg",
+    "static/media/project1.png": "/static/media/project1.4087f4c8.png",
+    "static/media/project2.png": "/static/media/project2.bf34ea1d.png",
+    "static/media/project3.png": "/static/media/project3.fee77697.png",
+    "static/media/project4.png": "/static/media/project4.c1b31190.png",
+    "static/media/react-bootstrap.svg": "/static/media/react-bootstrap.ef194ddf.svg",
+    "static/media/react-router.svg": "/static/media/react-router.02419671.svg",
+    "static/media/react.svg": "/static/media/react.4009eef3.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.a214d8cc.js",
+    "static/js/2.6aa36a32.chunk.js",
+    "static/css/main.a6467b28.chunk.css",
+    "static/js/main.de91f7cf.chunk.js"
+  ]
+}

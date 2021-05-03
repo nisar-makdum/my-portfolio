@@ -5,13 +5,18 @@ import Row from "react-bootstrap/Row";
 import blog1 from '../../assets/img/blogs/blog1.jpg';
 import blog2 from '../../assets/img/blogs/blog2.png';
 import blog3 from '../../assets/img/blogs/blog3.png';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 const MyBlogs = () => {
+
+    AOS.init({duration:2000});
+
     return (
         <div>
             <h1 style={{color:"#F0FFF0"}} className="text-center font-details-b pb-4">MY BLOGS</h1>
            <Row  className="d-flex justify-content-around">
-           <Card style={{ width: '18rem' }}>
+           <Card data-aos="fade-right" style={{ width: '18rem' }}>
                 <Card.Img variant="top" src={blog1} />
                 <Card.Body>
                     <Card.Title>JavaScript</Card.Title>
@@ -22,7 +27,7 @@ const MyBlogs = () => {
                 </Card.Body>
             </Card>
 
-            <Card style={{ width: '18rem' }}>
+            <Card data-aos="fade-up" style={{ width: '18rem' }}>
                 <Card.Img variant="top" src={blog2} />
                 <Card.Body>
                     <Card.Title>React</Card.Title>
@@ -35,7 +40,7 @@ const MyBlogs = () => {
                 </Card.Body>
             </Card>
 
-            <Card style={{ width: '18rem' }}>
+            <Card data-aos="fade-left" style={{ width: '18rem' }}>
                 <Card.Img variant="top" src={blog3} />
                 <Card.Body>
                     <Card.Title>Node Js</Card.Title>

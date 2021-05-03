@@ -4,6 +4,8 @@ import CardDeck from "react-bootstrap/CardDeck";
 import Image from "react-bootstrap/Image";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 // skills
 import { skills } from "./skills-data";
@@ -11,6 +13,9 @@ import { skills } from "./skills-data";
 import "./skills.styles.css";
 
 const Skills = () => {
+
+  AOS.init({duration:2000});
+
   return (
     <div className="pt-3 pb-3" id="skills">
       <h1 style={{color:"#F0FFF0"}} className="text-center font-details-b pb-4">SKILLS</h1>
@@ -18,7 +23,7 @@ const Skills = () => {
         <Row className="d-flex justify-content-around">
           {/* Frontend */}
           <Col md={4}>
-            <Card style={{backgroundColor:"#E6E6FA"}} className="focus mt-2 mb-2">
+            <Card data-aos="fade-right" style={{backgroundColor:"#E6E6FA"}} className="focus mt-2 mb-2">
               <Card.Body>
                 {/* Frontend */}
                 <Card.Title className="text-center  card-title">Frontend</Card.Title>
@@ -38,7 +43,7 @@ const Skills = () => {
 
           {/* Backend */}
           <Col md={4}>
-            <Card style={{backgroundColor:"#E6E6FA"}} className="focus mt-2 mb-2">
+            <Card data-aos="fade-up" style={{backgroundColor:"#E6E6FA"}} className="focus mt-2 mb-2">
               <Card.Body>
                 <Card.Title className="text-center  card-title">Backend</Card.Title>
                 <hr />
@@ -55,7 +60,7 @@ const Skills = () => {
             </Card>
 
             {/* Hosting Platforms */}
-            <Card style={{backgroundColor:"#E6E6FA"}} className="focus mt-2 mb-2 ">
+            <Card data-aos="fade-up" style={{backgroundColor:"#E6E6FA"}} className="focus mt-2 mb-2 ">
               <Card.Body>
                 <Card.Title className="text-center  card-title">Hosting Platforms</Card.Title>
                 <hr />
@@ -74,9 +79,9 @@ const Skills = () => {
 
           {/* Programming Languages */}
           <Col md={4}>
-            <Card style={{backgroundColor:"#E6E6FA"}} className="focus mt-2 mb-2">
+            <Card  data-aos="fade-left" style={{backgroundColor:"#E6E6FA"}} className="focus mt-2 mb-2">
               <Card.Body>
-                <Card.Title className="text-center  card-title">Programming Languages</Card.Title>
+                <Card.Title className="text-center  card-title">Programming Language</Card.Title>
                 <hr />
                 <Card.Text className="card-text d-flex justify-content-start flex-column">
                   {skills.programmingLanguages.map((skill, index) => (
@@ -92,7 +97,7 @@ const Skills = () => {
 
             {/* Database */}
 
-            <Card style={{backgroundColor:"#E6E6FA"}} className="focus mt-2 mb-2">
+            <Card  data-aos="fade-left" style={{backgroundColor:"#E6E6FA"}} className="focus mt-2 mb-2">
               <Card.Body>
                 <Card.Title className="text-center  card-title">Database</Card.Title>
                 <hr />
