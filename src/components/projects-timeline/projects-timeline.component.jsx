@@ -3,7 +3,7 @@ import { Timeline, Events, UrlButton, ImageEvent } from "@merc/react-timeline";
 
 // projects
 import Shot_Studio from "../../assets/img/projects/project1.png";
-import Super_Market from "../../assets/img/projects/project2.png";
+import Epic_Eateries from "../../assets/img/projects/image.png";
 import City_Riders from "../../assets/img/projects/project3.png";
 import Burj_AL_Arab from "../../assets/img/projects/project4.png";
 import Accordion from "react-bootstrap/Accordion";
@@ -11,6 +11,7 @@ import Card from "react-bootstrap/Card";
 
 // skills
 import L_REACT from "../../assets/img/skills/react.svg";
+import L_REDUX from "../../assets/img/skills/redux.svg";
 import L_NODE_JS from "../../assets/img/skills/nodejs.svg";
 import L_EXPRESS from "../../assets/img/skills/express.svg";
 import L_MONGODB from "../../assets/img/skills/mongodb.svg";
@@ -79,15 +80,15 @@ const TimeLine = () => {
                           <li>
                             <span className="p-2">
                               <Image
-                                src={L_NODE_JS}
+                                src={L_REDUX}
                                 alt="Node.js"
                                 rounded
                                 className="image-style1 m-1"
                               ></Image>{" "}
-                              Node.js
+                              Redux
                             </span>
                           </li>
-                          <li>
+                          {/* <li>
                             <span className="p-2">
                               <Image
                                 src={L_EXPRESS}
@@ -108,7 +109,7 @@ const TimeLine = () => {
                               ></Image>{" "}
                               MongoDB
                             </span>
-                          </li>                                           
+                          </li>                                            */}
                         </ul>
                       </Card.Body>
                     </Accordion.Collapse>
@@ -142,9 +143,9 @@ const TimeLine = () => {
 {/* Project: SUPER MARKET*/}
 <ImageEvent
             className="text-center"
-            text="Super MArket"
-            src={Super_Market}
-            alt="Super MArket"
+            text="Eat Eateries"
+            src={Epic_Eateries}
+            alt="Eat Eateries"
           >
             <div className="d-flex justify-content-between flex-column mt-1">
               <div>
@@ -160,13 +161,13 @@ const TimeLine = () => {
 
                     <Accordion.Collapse eventKey="0" className="text-left">
                       <Card.Body>
-                        <strong>Description:</strong>In this Website, at first you will see some products name, image and price. If you want to buy any product, at first you click on a buy now button and then login from Google and then buy your product.
+                        <strong>Description:</strong>The Website is about foods ordering services. In this site you will find some cards about names of foods, its prices and its descriptions . You will find a button in every card named as Order Now. Click on the button then login with your Google account and order your foods.
                         <hr />
                         <strong>Features:</strong>
                         <ul className="list-styles pt-1">
-                          <li>Admin panel</li>
-                          <li>Product order and added system</li>
-                          <li>Login system.</li>
+                          <li>Google Sign-In Method</li>
+                          <li>Stripe Payment Gateway System</li>
+                          <li>Customer Selected Food Order System</li>
                         </ul>
                         <hr />
                         <strong>Tech used:</strong>
@@ -193,7 +194,7 @@ const TimeLine = () => {
                               Node.js
                             </span>
                           </li>
-                          <li>
+                          {/* <li>
                             <span className="p-2">
                               <Image
                                 src={L_EXPRESS}
@@ -214,7 +215,7 @@ const TimeLine = () => {
                               ></Image>{" "}
                               MongoDB
                             </span>
-                          </li>
+                          </li> */}
                         </ul>
                       </Card.Body>
                     </Accordion.Collapse>
@@ -223,23 +224,23 @@ const TimeLine = () => {
               </div>
               <div className="d-flex justify-content-between flex-nowrap text-center">
                 <UrlButton
-                  href="https://super-market-a9a58.web.app/"
+                  href="https://epic-eateries-238ce.web.app/"
                   target="_blank"
                 >
                   SEE LIVE
                 </UrlButton>
                 <UrlButton
-                  href="https://github.com/nisar-makdum/super-market-client"
+                  href="https://github.com/nisar-makdum/Epic-Eateries"
                   target="_blank"
                 >
-                  CLIENT CODE
+                  Source CODE
                 </UrlButton>
-                <UrlButton
+                {/* <UrlButton
                   href="https://github.com/nisar-makdum/super-market-server"
                   target="_blank"
                 >
                   SERVER CODE
-                </UrlButton>
+                </UrlButton> */}
               </div>
             </div>
           </ImageEvent>

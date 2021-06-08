@@ -22,7 +22,7 @@ const MyNavbar = () => {
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="mr-auto ">
               <Nav.Link className="me-4" href="#home">Home</Nav.Link>
-              <Nav.Link className="me-4 text-success" href="https://drive.google.com/file/d/16C9SKqRV84WXeaIypTaMcR57kH_eV15j/view">Resume</Nav.Link>
+              <Nav.Link className="me-4 text-success" href="https://drive.google.com/file/d/12GiWaH9GFhyUYk3d1SsKsBrdbjA2Hk2k/view">Resume</Nav.Link>
               <Nav.Link className="me-4" href="#about">About</Nav.Link>
               <Nav.Link className="me-4" href="#skills">Skills</Nav.Link>
               <Nav.Link className="me-4" href="#projects">Projects</Nav.Link>

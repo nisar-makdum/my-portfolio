@@ -3,7 +3,7 @@ import L_CSS3 from "../../assets/img/skills/css3.svg";
 // import L_SASS from "../../assets/img/skills/sass-1.svg";
 import L_BOOTSTRAP from "../../assets/img/skills/bootstrap-4.svg";
 import L_REACT from "../../assets/img/skills/react.svg";
-// import L_REDUX from "../../assets/img/skills/redux.svg";
+import L_REDUX from "../../assets/img/skills/redux.svg";
 import L_REACT_ROUTER from "../../assets/img/skills/react-router.svg";
 // import L_MATERIALUI from "../../assets/img/skills/material-ui-1.svg";
 import L_REACT_BOOTSTRAP from "../../assets/img/skills/react-bootstrap.svg";
@@ -62,12 +62,12 @@ export const skills = {
       imgSrc: L_REACT,
       skillName: "React JS",
     },
-    // {
-    //   link: "https://redux.js.org/",
-    //   imgAltText: "Redux",
-    //   imgSrc: L_REDUX,
-    //   skillName: "Redux",
-    // },
+    {
+      link: "https://redux.js.org/",
+      imgAltText: "Redux",
+      imgSrc: L_REDUX,
+      skillName: "Redux",
+    },
     {
       link: "https://reacttraining.com/react-router/",
       imgAltText: "React Router",
